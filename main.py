@@ -313,4 +313,4 @@ async def main(page:ft.Page):
     Application_compteur(page)
     
 
-ft.app(target=main,port=os.environ.get("PORT",8080))
+ft.app(target=main,port=os.environ.get("PORT",10000))
